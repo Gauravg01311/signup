@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Form</title>
+    <link rel="stylesheet" href="./signup.css">
+    <link rel="shortcut icon" href="./images/fontA.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Bricolage+Grotesque:opsz@10..48&family=Roboto+Mono&family=Source+Code+Pro:ital@1&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ec9f12eed0.js" crossorigin="anonymous"></script>
+</head> 
+<body>
+      <main>
+       <form action="">
+        <h1>Sign Up</h1>
+        <label for="Fname">First Name</label><br>
+         <div class="as">
+          <i class="fa-solid fa-user"></i>
+          <input type="text" id="Fname" placeholder="Enter first name"><br>
+        </div>
+        <label for="Lname">Last Name</label><br>
+        <div class="as">
+          <i class="fa-solid fa-user"></i>
+          <input type="text" id="Lname" placeholder="Enter Last name"><br>
+        </div>
+        <label for="email">Enter E-mail id:-</label><br>
+        <div class="as">
+          <i class="fa-solid fa-envelope"></i>
+          <input type="email" id="email" placeholder="e.g. abc@gmail.com"><br>
+        </div>
+        <label for="mobile">Enter Mobile no.-</label><br>
+        <div class="as">
+          <i class="fa-solid fa-phone"></i>
+          <input type="number" id="mobile" placeholder="enter mobile no."><br>
+        </div>
+        <Label for="bday">D.O.B. :-</Label>
+        <input type="date" id="bday"><br>
+        <label for="">Gender:- </label>
+        <div id="gendiv">
+         <input type="radio" name="gen">Male
+         <input type="radio" name="gen">Female
+         <input type="radio" name="gen">Others <br>
+        </div>
+        <label for="select"  id="select">Status</label><br>
+        <select name="status" id="drop"><br>
+            <option value="" hidden>Select</option>
+            <option value="">Single</option>
+            <option value="">Married</option>
+        </select><br>
+        <label for="pass1">Create Password</label><br>
+        <div class="as">
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" placeholder="Enter password" id="pass1"><br>
+            </div>
+        <label for="pass2">Confirm Password</label><br>
+        <div class="as">
+            <i class="fa-solid fa-lock"></i>
+            <input type="password" id="pass2" placeholder="confirm password"><br>
+        </div>
+        <input type="checkbox" required  id="check1">I have read & understood T&C. <br>
+        <input type="checkbox" required>I am 18+ & i'm accepting Terms & conditions <br>
+
+        <!-- <input type="color"><br>
+        <input type="range"><br> -->
+        <!-- <input type="submit"> -->
+        
+        <button id="btn">SignUp</button>
+      </form>
+      </main>
+</body>
+</html>
